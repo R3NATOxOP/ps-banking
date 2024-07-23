@@ -32,6 +32,7 @@ Citizen.CreateThread(function()
                 coords = vec3(location.x, location.y, location.z),
                 distance = 2.5,
                 interactDst = 2.5,
+		ignoreLos = true, -- optional				
                 id = locale("openBank").."interact",
                 name = locale("openBank").."interact:name",
                 options = {
